@@ -22,5 +22,5 @@ jobs:
 
       - name: Run tests
         env:
-          USE_LLM: "false"     # double safety
+          USE_LLM: "false"       # keep CI deterministic
         run: pytest -q --maxfail=1
